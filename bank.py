@@ -34,6 +34,7 @@ class BankAccount:
         self.hesab_nomresi = hesab_nomresi
         self.ad = ad
         self.balans = balans
+        self.valyuta = valyuta
         self.hesab_aktivdir = True
     def hesab_melumat(self):
         return(f"Hesab No: {self.hesab_nomresi}\nAd: {self.ad}\nBalans: {self.balans:.2f} {self.valyuta}\nAktivdir: {self.hesab_aktivdir}")
